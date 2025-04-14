@@ -1,14 +1,14 @@
-﻿Name: Balakumar
-Email: bala8065@gmail.com
-Phno: 9790816791
-Batch code: PAT-C-WE-E-B7
+#﻿Name: Balakumar
+#Email: bala8065@gmail.com
+#Phno: 9790816791
+#Batch code: PAT-C-WE-E-B7
 
 
-Oops Task
+#Oops Task
 
 
-1. Problem 1 : Bank account 
-Create a base class bank account with attributes like account number, balance, and methods like deposit()a and withdraw(). Inherit from this class to create subclasses saving account and current account. The saving account should have an interest rate and a method to calculate interest. The current account should have a minimum balance requirement. Implement encapsulation to protect the account balance and ensure that withdrawals cannot exceed the balance or minimum balance requirements. 
+#1. Problem 1 : Bank account 
+#Create a base class bank account with attributes like account number, balance, and methods like deposit()a and withdraw(). Inherit from this class to create subclasses saving account and current account. The saving account should have an interest rate and a method to calculate interest. The current account should have a minimum balance requirement. Implement encapsulation to protect the account balance and ensure that withdrawals cannot exceed the balance or minimum balance requirements. 
 
 
 # Python program to create Bankaccount class
@@ -59,8 +59,8 @@ s.display()
 
 
 
-2. Problem 2: Employee management 
-Create a base class employee with attributes like name salary and a method calculate salary(). Inherit from this class to create subclasses regular employee,Contract employee and manager.Each subclass should have specific attributes and calculations for salary Implement inheritance and polymorphism to calculate the salary of different employee types based on their specific attributes and rules
+#2. Problem 2: Employee management 
+#Create a base class employee with attributes like name salary and a method calculate salary(). Inherit from this class to create subclasses regular employee,Contract employee and manager.Each subclass should have specific attributes and calculations for salary Implement inheritance and polymorphism to calculate the salary of different employee types based on their specific attributes and rules
 class Employee:
    def __init__(self, name, base_salary):
        self.name = name
@@ -115,8 +115,9 @@ employees = [
 
 for emp in employees:
    print(emp)
-3. Problem 3: Vehicle rental 
-Create a base class vehicle with attributes like model,rental_rate and a method calculate_rental(). Inherit from this class to create subclasses car,Bike and Truck. Each subclass should have specific attributes and calculations for rental rates.implement polymorphism to calculate The rental cost of different vehicles based on their type and rental duration   
+
+#3. Problem 3: Vehicle rental 
+#Create a base class vehicle with attributes like model,rental_rate and a method calculate_rental(). Inherit from this class to create subclasses car,Bike and Truck. Each subclass should have specific attributes and calculations for rental rates.implement polymorphism to calculate The rental cost of different vehicles based on their type and rental duration   
 
 
 class Vehicle:
